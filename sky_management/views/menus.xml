@@ -1,0 +1,24 @@
+<odoo>
+  
+   <menuitem id="sky_management_menu" 
+             name="Sky Management" 
+             web_icon="sky_management,static/description/icon.png"
+    />
+    
+        <menuitem
+            id="billboard_menu"
+            name="Billboard"
+            action="action_billboard_form_view"
+            sequence="1"
+            parent="sky_management_menu"
+        />
+    
+        <menuitem
+            id="site_menu"
+            name="Site"
+            action="action_site"
+            sequence="20"
+            parent="sky_management_menu"
+        />
+  
+</odoo>
